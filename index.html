@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CETI News</title>
+		<meta name="description" content="Jornal CETI News">
+		<meta name="keywords" content="CETIJAB, Notícias, Jornal">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Dark Thinker">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="img/icon.png">
+	</head>
+	<body>
+		<!--CABEÇALHO-->
+		<header>
+			<a href="index.html"><h1 class="logo"> CETI News </h1></a>
+			<button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+			<nav class="menu">
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="noticias.html">Notícias</a></li>
+					<li><a href="eventos.html">Eventos</a></li>
+					<li><a href="informativos.html">Informativos</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- BANNER --> 
+        <div class="banner container">
+            <div class="title">
+                <h2> CETI News </h2>
+                <h3> Inovação a serviço da educação!</h3>
+            </div>
+        </div>
+        <!-- ARTIGOS -->
+        <main class="servicos container">
+            <article class="servico bg-white radius">
+               <img src="img/dr.jpg" alt="Design responsivo">
+               <div class="inner">
+                   <h2> Objetivos </h2>
+                   <h4> Facilidade e Flexibilidade </h4>
+                   <p> Olá, bem-vindo ao <strong>CETI <em>News</em> - Online</strong>, onde este é uma extensão do jornal físico, que visa maior flexibilidade e facilidade, ao corpo docente e discente que buscar informações sobre <strong>Notícias, Eventos e Informativos</strong> acerca do Centro Estadual de Tempo Integral José Alves Bezerra (CETIJAB), podendo ser acessado de qualquer dispositivo. </p>
+               </div>
+            </article>
+            <article class="servico bg-white radius">
+               <img src="img/md.jpg" alt="Navegação no site">
+               <div class="inner">
+                   <h2> Navegação no site  </h2>
+                   <h4> Descrição dos tópicos do site </h4>
+                   <p> 
+                   		<dl>
+							<dt><strong>Início:</strong></dt>
+								<dd>Descreve o site de forma geral, dando seu propósito e funcionamento.</dd>
+								<br>
+							<dt><strong>Notícias:</strong></dt>
+								<dd>Traz informações sobre o dia-a-dia da escola.</dd>
+								<br>
+							<dt><strong>Eventos:</strong></dt>
+								<dd>Área que traz vídeos e imagens dos principais acontecimentos da instituição.</dd>
+								<br>
+							<dt><strong>Informativo:</strong></dt>
+								<dd>Avisos sobre datas e próximos acontecimentos da instituição, destinado principalmente à alunos e pais.</dd>
+								<br>
+							<dt><strong>Sobre:</strong></dt>
+								<dd>Informe sobre os desenvolvedores do jornal: criadores de conteúdo e o criador do site.</dd>
+						</dl>
+					</p>
+               </div>
+            </article>
+        </main>
+        <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradient">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </div>
+          <p class="copyright">
+            CETI News | 2018
+        </footer>  
+         <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script> 
+	</body>
+</html>
